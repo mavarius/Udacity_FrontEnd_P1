@@ -4,7 +4,7 @@ light grey #bcbbbb
 olive #747704
 */
 
-/*Boostrap gap fix*/
+/*Boostrap gap fix per Andrew Wilson on Stack Overflow*/
 html, body {
   width: auto;
   overflow-x: hidden;
