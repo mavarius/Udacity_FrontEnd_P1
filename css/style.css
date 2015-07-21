@@ -75,12 +75,9 @@ h3 {
     float: left;
     width: 30vw;
     max-width: 205px;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
-.p1-title {
+.p1-logo, .p1-title {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
