@@ -5,25 +5,21 @@ olive #747704
 */
 
 /*Boostrap gap fix per Andrew Wilson on Stack Overflow*/
-html, body {
-  width: auto;
-  overflow-x: hidden;
+html,
+body {
+    width: auto;
+    overflow-x: hidden;
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 14px;
     color: #747704;
 }
 
-@media (min-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-}
-
-header, .p1-header {
+header,
+.p1-header {
     border-bottom: 3px solid #bcbbbb;
     padding: 0 10px;
     margin: 10px 0 20px 0;
@@ -33,17 +29,16 @@ header, .p1-header {
     transform-style: preserve-3d;
 }
 
-@media (min-width: 768px) {
-    header, .p1-header {
-        padding: 0;
-    }
-}
-
-h1, h3, h4, h5, h6 {
+h1,
+h3,
+h4,
+h5,
+h6 {
     text-transform: uppercase;
 }
 
-h1, h3 {
+h1,
+h3 {
     text-align: right;
 }
 
@@ -52,12 +47,6 @@ h1 {
     color: #747704;
     font-size: 2em;
     margin: 0 0 5px 0;
-}
-
-@media (min-width: 768px) {
-    h1 {
-        font-size: 3em;
-    }
 }
 
 h2 {
@@ -73,11 +62,10 @@ h3 {
 
 .p1-logo {
     float: left;
-    width: 30vw;
-    max-width: 205px;
 }
 
-.p1-logo, .p1-title {
+.p1-logo,
+.p1-title {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -90,18 +78,19 @@ h3 {
     margin-bottom: 40px;
 }
 
-.p1-splash img {
+.p1-splash-img {
     object-fit: cover;
     object-position: top center;
     width: 100%;
     height: 100%;
 }
+
 .p1-link-item {
     height: 300px;
     margin: 10px 0 50px 0;
 }
 
-.p1-link-item img {
+.p1-link-item-img {
     object-fit: cover;
     object-position: top center;
     width: 100%;
@@ -114,19 +103,20 @@ h3 {
     margin-bottom: 10px;
 }
 
-dl {
+figcaption {
     text-align: center;
 }
 
-dt {
+figcaption .p1-item-title {
     font-size: 2.5em;
     font-weight: 500;
     text-transform: uppercase;
 }
 
-dd {
+.p1-item-link {
     font-size: 1em;
     font-weight: 200;
+    display: block;
 }
 
 a {
@@ -137,4 +127,23 @@ a {
 a:hover {
     color: #bcbbbb;
     text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    header,
+    .p1-header {
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 3em;
+    }
 }
